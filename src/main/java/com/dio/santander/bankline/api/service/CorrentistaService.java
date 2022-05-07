@@ -24,7 +24,7 @@ public class CorrentistaService {
 		conta.setSaldo(0.0);
 		conta.setNumero(new Date().getTime());
 		
-		correntista.setConta(null);
+		correntista.setConta(conta);
 		repository.save(correntista);
 	}
 }

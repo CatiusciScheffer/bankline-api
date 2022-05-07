@@ -31,6 +31,7 @@ public class Movimentacao {
 	
 	@Column(name = "id_conta")
 	private Integer idConta;
+	
 	public Integer getIdConta() {
 		return idConta;
 	}
